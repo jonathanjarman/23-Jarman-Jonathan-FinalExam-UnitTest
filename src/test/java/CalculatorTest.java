@@ -8,14 +8,15 @@ public class CalculatorTest extends StringCalculator {
    void StringCalculatorTest() {
         int result = add("5,6");
 
-        assertThrows(IllegalArgumentException.class, () -> add("5,6"));
+        assertThrows(IllegalArgumentException.class, () -> add("5,-1"));
 
     }
 
     @Test
     void StringCalculatorTest2() {
+        int result = add("5,2000");
 
-        assertEquals(5,add(String.valueOf(5), String.valueOf(2000)));
+        assertEquals(5, result);
     }
 
 
