@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest extends StringCalculator {
     @Test
-   void StringCalculatorTest() {
+   public void StringCalculatorTest() {
         int result = add("5,6");
 
         assertThrows(IllegalArgumentException.class, () -> add("5,-1"));
@@ -13,7 +13,7 @@ public class CalculatorTest extends StringCalculator {
     }
 
     @Test
-    void StringCalculatorTest2() {
+    public void StringCalculatorTest2() {
         int result = add("5,2000");
 
         assertEquals(5, result);

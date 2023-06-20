@@ -54,7 +54,7 @@
       <recent name="C:\Users\jonat\IdeaProjects\CS410-FinalExam\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.StringCalculatorTest2">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS410-FinalExam" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.StringCalculatorTest2" />
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.StringCalculatorTest2" />
         <item itemvalue="JUnit.CalculatorTest.StringCalculatorTest" />
       </list>
     </recent_temporary>
